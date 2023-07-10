@@ -1,2 +1,2 @@
-# qb-els
-A standalone emergency light script 
+# Emergency lights script (standalone)
+
