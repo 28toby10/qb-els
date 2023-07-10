@@ -1,0 +1,222 @@
+body {
+    background: none !important;
+}
+
+#politie {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 500px;
+    background-image: url('img/background.png');
+    background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+	z-index:-1;
+}
+#ambulance {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    width: 350px;
+    background-image: url('img/background_small.png');
+    background-size: contain;
+	background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+	z-index:-1;
+}
+button{
+    border:none;
+}
+@media (min-width: 1921px)  {
+	#politie {
+		top: 92%;
+		left: 89.8%;
+	}
+    #ambulance {
+        top: 92%;
+		left: 89.8%;
+    }
+}
+.ambulance-close{
+    position: fixed;
+    bottom: 37px;
+    right: 53px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/close.png);
+    background-size: cover;
+}
+
+.ambulance-groen{
+    position: fixed;
+    bottom: 120px;
+    right: 120px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/licht.png);
+    background-size: cover;
+}
+.ambulance-oranje{
+    position: fixed;
+    bottom: 37px;
+    right: 120px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/licht.png);
+    background-size: cover;
+}
+.ambulance-blauw{
+    position: fixed;
+    bottom: 79px;
+    right: 280px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/licht.png);
+    background-size: cover;
+}
+.ambulance-werk{
+    position: fixed;
+    bottom: 120px;
+    right: 53px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/werklicht.png);
+    background-size: cover;
+}
+.ambulance-sirene{
+    position: fixed;
+    bottom: 79px;
+    right: 220px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/sirene.png);
+    background-size: cover;
+}
+
+.politie-close{
+    position: fixed;
+    bottom: 37px;
+    right: 53px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/close.png);
+    background-size: cover;
+}
+
+.politie-groen{
+    position: fixed;
+    bottom: 120px;
+    right: 120px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/licht.png);
+    background-size: cover;
+}
+.politie-oranje{
+    position: fixed;
+    bottom: 37px;
+    right: 120px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/licht.png);
+    background-size: cover;
+}
+.politie-blauw{
+    position: fixed;
+    bottom: 79px;
+    right: 440px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/licht.png);
+    background-size: cover;
+}
+.politie-werk{
+    position: fixed;
+    bottom: 120px;
+    right: 53px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/werklicht.png);
+    background-size: cover;
+}
+.politie-volgachter{
+    position: fixed;
+    bottom: 37px;
+    right: 313px; /* 250px */
+    height: 45px;
+    width: 45px;
+    background-image: url(img/volgachter.png);
+    background-size: cover;
+}
+.politie-stopvoor{
+    position: fixed;
+    bottom: 37px;
+    right: 250px; /* 187px */
+    height: 45px;
+    width: 45px;
+    background-image: url(img/stopvoor.png);
+    background-size: cover;
+}
+.politie-stopachter{
+    position: fixed;
+    bottom: 37px;
+    right: 187px; /* 313px */
+    height: 45px;
+    width: 45px;
+    background-image: url(img/stopachter.png);
+    background-size: cover;
+}
+.politie-sirene{
+    position: fixed;
+    bottom: 79px;
+    right: 380px;
+    height: 45px;
+    width: 45px;
+    background-image: url(img/sirene.png);
+    background-size: cover;
+}
+
+.blauw{
+    background-color: blue;
+}
+.groen{
+    background-color: green;
+}
+.oranje{
+    background-color: orange;
+}
+.sirene{
+    background-color: red;
+}
+.werk {
+    background-color: yellow;
+}
+.volgachter{
+    background-color: red;
+
+}
+.stopvoor{
+    background-color: red;
+
+}
+.stopachter{
+    background-color: red;
+}
+input {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+}
