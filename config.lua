@@ -1,7 +1,7 @@
 Config = {}
 Config.voertuigen = {
     {
-        model = 'Police', 
+        model = 'vehicle_name', 
         blauw = {},
         groen = {}, 
         oranje = {}, 
@@ -9,31 +9,9 @@ Config.voertuigen = {
         volgachter = {},
         stopvoor = {},
         stopachter = {},
-        sirene = 'politie',
-        controller = 'politie',
-    },
-    {
-        model = 'Unmarked', 
-        blauw = {},
-        groen = {}, 
-        oranje = {}, 
-        werk = {},
-        volgachter = {},
-        stopvoor = {},
-        stopachter = {},
-        extraOn ={},
+        -- extraOn ={},
         pitje = {},
-        sirene = 'politie',
-        controller = 'politie',
+        sirene = '', -- politie/ambulance
+        controller = '', -- politie/ambulance
     },
-    {
-        model = 'Ambulance', 
-        blauw = {},
-        groen = {}, 
-        oranje = {}, 
-        werk = {},
-        sirene = 'ambulance',
-        controller = 'ambulance',
-    },
-
 }
