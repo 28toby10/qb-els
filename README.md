@@ -21,18 +21,17 @@
 ```
 Config.voertuigen = {
     {
-        model = 'vehicle_name', 
-        blauw = {}, -- blue lights
-        groen = {}, -- green lights
-        oranje = {}, -- orange lights
-        werk = {}, -- white lights/ search lights
-        volgachter = {}, -- follow sign in the back (police vehicle)
-        stopvoor = {}, -- stop sign in the front (police vehicle)
-        stopachter = {}, -- stop sign in the back (police vehicle)
-        -- extraOn ={},
-        pitje = {}, -- for enabeling/ disabeling the pit in the roof (police vehicle)
-        sirene = '', -- politie/ambulance
-        controller = '', -- politie/ambulance
+        model = 'vehicle_name',     -- spawn name
+        blauw = {},                 -- blue lights
+        groen = {},                 -- green lights
+        oranje = {},                -- orange lights
+        werk = {},                  -- white lights/ search lights
+        volgachter = {},            -- follow sign in the back (police vehicle)
+        stopvoor = {},              -- stop sign in the front (police vehicle)
+        stopachter = {},            -- stop sign in the back (police vehicle)
+        pitje = {},                 -- for enabeling/ disabeling the pit in the roof (police vehicle)
+        sirene = '',                -- politie/ambulance
+        controller = '',            -- politie/ambulance
     },
 }
 ```
