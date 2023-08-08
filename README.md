@@ -4,7 +4,7 @@
 /toggleELS - Showing/hiding the ELS panel in the right bottom of your screen
 
 ## Controls:
-### Controlls can be changed in the nui.lua
+Controlls can be changed in the `nui.lua`
 `NUMPAD 7` - Blue lights </br>
 `NUMPAD 8` - Siren </br>
 `NUMPAD 9` - Orange lights
